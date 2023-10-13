@@ -19,6 +19,7 @@ public class Factura {
 	
 	
 	@Autowired
+	//@Qualifier("itemsFacturaOficina")
 	private List<ItemFactura> items;
 
 	public String getDescripcion() {
